@@ -1,0 +1,22 @@
+{
+  "name": "htdbhs",
+  "version": "1.0.0",
+  "description": "HTD website",
+  "main": "script.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jwatts82/HTDBHS.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jwatts82/HTDBHS/issues"
+  },
+  "homepage": "https://github.com/Jwatts82/HTDBHS#readme",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
