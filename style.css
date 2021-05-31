@@ -63,15 +63,21 @@ h1 {
   margin-bottom: 15px;
 }
 
-.showcase {
+.hero {
   position: relative;
-  height: 60vh;
+  height: 80vh;
+  color: #fff;
+}
+
+/* .showcase {
+  position: relative;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 0 20px;
-}
+} */
 
 .video-container {
   position: absolute;
@@ -95,7 +101,8 @@ h1 {
 
 /* Navigation */
 .main-nav {
-  background: #fff;
+  background: transparent;
+  /* background: #fff; */
   opacity: 0.9;
   /* filter: alpha(opacity=50); */
   position: sticky;
