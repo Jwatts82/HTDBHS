@@ -4,4 +4,13 @@ $main-color: #ffbc00;
 $light-color: #f4f4f4;
 $dark-color: #333;
 $medium-color: #ccc;
-$bg-image: url('../image/mountian.jpg');
+// $bg-image: url('../img/mountain.jpg');
+
+// Set Text Color
+// @function set-textcolor($color) {
+//   @if (lightness($color) > 50) {
+//     @return #000;
+//   } @else {
+//     @return #fff;
+//   }
+// }

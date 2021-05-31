@@ -1,3 +1,56 @@
+.container {
+  max-width: 1280px;
+  padding: 0 1.5rem;
+  margin: auto;
+  overflow: hidden; }
+
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem; }
+
+.text-center {
+  text-align: center; }
+
+.py-1 {
+  padding: 1rem 0; }
+
+.py-2 {
+  padding: 2rem 0; }
+
+.py-3 {
+  padding: 3rem 0; }
+
+.py-4 {
+  padding: 4rem 0; }
+
+.my-1 {
+  margin: 1rem 0; }
+
+.my-2 {
+  margin: 2rem 0; }
+
+.my-3 {
+  margin: 3rem 0; }
+
+.my-4 {
+  margin: 4rem 0; }
+
+.bg-main {
+  background: #ffbc00;
+  color: set-text-color(#ffbc00); }
+
+.bg-dark {
+  background: #333;
+  color: set-text-color(#333); }
+
+.bg-light {
+  background: #f4f4f4;
+  color: set-text-color(#f4f4f4); }
+
+.bg-medium {
+  background: #ccc;
+  color: set-text-color(#ccc); }
+
 * {
   margin: 0;
   padding: 0; }
@@ -16,3 +69,41 @@ ul {
 
 img {
   width: 100%; }
+
+#logo {
+  width: 180px; }
+
+#header-home {
+  background: url("../video_bg/beach.mp4");
+  height: 60vh; }
+
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: 'bio bio';
+  grid-gap: 1.2rem; }
+
+#about-a .about {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20px;
+      width: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ffbc00; }
