@@ -10,6 +10,11 @@
   margin: 0;
 }
 
+a {
+  color: #333;
+  text-decoration: none;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
@@ -65,7 +70,7 @@ h1 {
 
 .hero {
   position: relative;
-  height: 80vh;
+  height: 70vh;
   color: #fff;
 }
 
@@ -126,23 +131,28 @@ h1 {
 }
 
 .main-nav .social i {
-  color: #777;
+  color: rgb(48, 47, 47);
   margin-right: 0.5rem;
 }
 
 /* About Sections */
 
-#about-a .about-info {
+/* .about-a {
+  display: flex;
+  align-items: center;
+} */
+
+.about-info {
   display: grid;
-  grid-template-areas: 'bio bio';
+  grid-template-areas: 'btn bio bio';
   grid-gap: 1.2rem;
   padding: 20px;
 }
 
 /* Grid Areas */
-/* .bio-image {
-  grid-area: aboutimage;
-} */
+.btn {
+  grid-area: btn;
+}
 
 .about-info {
   grid-area: bio;
@@ -174,3 +184,41 @@ h1 {
 /* .about > div {
   padding: 20px;
 } */
+
+/* Button */
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #28a3a7;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+/*  */
+
+.estimate {
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+}
+
+/* Footer */
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 3rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
